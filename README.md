@@ -1,6 +1,6 @@
 # GanttRails
 
-gantt_rails wraps the [gantt.js](https://github.com/taitems/jQuery.Gantt) library in a rails engine for simple use with the asset pipeline provided by rails 2.3 and up.
+gantt_rails wraps the [gantt.js](https://github.com/taitems/jQuery.Gantt) library in a rails engine for simple use with the asset pipeline provided by Rails 3.1 and up. The gem includes the development (non-minified) source for ease of exploration. the asset pipleline will do the heavy lifting and minify it for you in production.
 
 
 ## Installation

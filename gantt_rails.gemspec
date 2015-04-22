@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'gantt_rails'
   spec.version       = GanttRails::VERSION
   spec.authors       = ['Steven Spiel']
-  spec.description   = 'GanttRails as a gem for Rails 2.3+'
+  spec.description   = 'GanttRails as a gem for Rails 3.1+'
   spec.summary       = 'jQuery.Gantt is awesome'
   spec.homepage      = 'https://github.com/stevenspiel/gantt_rails'
   spec.license       = 'MIT'
@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
+  spec.add_dependency 'railties', '>=3.1'
 end
